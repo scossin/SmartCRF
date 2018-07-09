@@ -1,0 +1,170 @@
+﻿
+/*
+ couleurs des mots détectés dans le moteur de recherche
+ */
+.detected{
+	 background-color:orange;
+}
+
+			/* TIMELINES */
+.PMSI {
+background-color:#ffd9b3;
+}
+			
+.BIOLOGIE{
+background-color:#ffccdd;
+}
+
+.DOCUMENT{
+background-color:#ecffb3;
+border-color: darkred;
+}
+
+.QUESTIONNAIRES{
+background-color:#ccddff;
+}
+
+/* ne pas afficher les "dots" sur la timeline pour les timeInstant*/
+.vis-item.vis-dot{
+border-width:0px !important;
+}
+
+.vis-timeline {
+    border: 2px solid #bfbfbf;
+    font-family: Helvetica;
+    font-size: 16pt;
+}
+
+.vis-panel.vis-left{
+    border-right-style: solid;
+    border-right-width: 6px;
+    border-right-color: #bfbfbf;
+}
+
+.vis-item-content {
+		cursor: pointer;
+}
+
+.vis-labelset .vis-label .vis-inner {
+		padding: 12px 0 0 10px;
+}
+
+.vis-panel.vis-bottom {
+		border: none;
+}
+
+[id^=TextDivText]{
+	font-size:18px;
+}
+
+				/* Modal */
+.modal-content{
+	margin-right:-400px;
+	margin-left:-400px;
+	height:1200px;
+}
+
+
+
+h2 {
+
+	text-align: center;
+	margin-bottom: 30px;
+    font-family: Helvetica;
+}
+
+			/* Sunburst */
+
+[id^=sunburstDivSunburstId]{
+	width:100% !important;
+	margin-top:20px;
+}
+
+.sunburst-sidebar {
+display:none;
+}
+
+.sunburst-chart{
+	margin-top:10%;
+}
+
+[id^=FormDP]{
+	margin-top:10%;
+	font-size:1.5em
+}
+
+[id^=FormDAS]{
+	margin-top:10%;
+	font-size:1.5em;
+}
+
+[id^=DivForm]{
+	font-size:1.5em;
+}
+
+
+
+					/* moteur de recherche */
+
+.item {
+ font-size: 1.5em !important;
+ color:#1a0dab !important;
+}
+
+
+.searchItem {
+ font-size: 1.5em;
+ color:#1a0dab !important;
+}
+
+
+#addTimelineId{
+	width:80%;
+	margin: auto;
+}
+
+#MEDICAMENT-addTimelineId {
+	width: 75%;
+	display:inline-block;
+	margin-right: 2%;
+    background-color: #f2f2f2;
+    margin: auto;
+    border: solid 1px #bfbfbf;
+    border-radius: 4px;
+	padding: 0 30px 30px;
+	display: inline-block;
+	vertical-align: top;
+margin-bottom : 20px;
+max-height: 700px;
+    overflow-y: auto;
+}
+
+#DrugsInDocument-MEDICAMENT-addTimelineId{
+ margin-bottom:150px;
+}
+
+#htmlDiv-DrugsInDocument-MEDICAMENT-addTimelineId h4 {
+	font-size: 22px;	
+}
+
+#htmlDiv-DrugsInDocument-MEDICAMENT-addTimelineId h4 a{
+	color:#1a0dab !important;
+}
+
+/*document display*/
+.shiny-input-container:not(.shiny-input-container-inline) {
+	width: 100%;
+}
+
+li {
+ font-size:1.5em;
+}
+
+.detected {
+  background-color:orange;
+}
+
+#modalDialogCR{
+	background-color:white;
+	font-size:1.5em;
+}
